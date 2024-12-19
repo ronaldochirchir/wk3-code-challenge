@@ -10,7 +10,7 @@ body {
   
   h1 {
     text-align: center;
-    color: #333;
+    color: #020202;
     margin: 20px 0;
     font-size: 2.5em;
   }
@@ -21,10 +21,10 @@ body {
     padding: 0;
     max-width: 400px;
     margin: 20px auto;
-    border: 1px solid #ddd;
+    border: 1px solid #b33030;
     border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f7f3f3;
+    box-shadow: 0 2px 5px rgba(7, 0, 0, 0.1);
   }
   
   #films li {
@@ -39,8 +39,8 @@ body {
   }
   
   #films li:hover {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #a9b6c4;
+    color: #777676;
   }
   
   /* Movie Details Section */
@@ -91,7 +91,7 @@ body {
   }
   
   button:disabled {
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
     cursor: not-allowed;
   }
   
